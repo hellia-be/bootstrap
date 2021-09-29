@@ -9,3 +9,5 @@ makepkg -si
 
 yay -S puppet
 su -c "cd /etc && rm -rf puppet && git clone https://github.com/hellia-be/puppet.git"
+
+yay -S openssh
